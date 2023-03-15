@@ -1,0 +1,1164 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Hanuman&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Zilla Slab', serif; */
+    font-family: 'Hanuman', serif;
+}
+
+body {
+    /* font-family: 'BIZ UDMincho', serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-size: 16px;
+}
+
+/* HEADER */
+
+/* header {
+    width: 100%;
+    background-color: #2A2A2A;
+}
+
+.content_header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    color: #ffffff;
+}
+
+.content_header a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content_header a:hover {
+    color: #fff;
+}
+ */
+
+/* STYLING NAVIGATION GOES HERE */
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: #383838;
+    padding: 15px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.sm_nav_bar {
+    display: none;
+} 
+
+
+ .show_sm_nav {
+    display: block;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 60px;
+  
+}
+
+.api{
+    color: #969915;
+   
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+   
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    width: 150px;
+}
+
+nav ul li a:hover,
+.active {
+    color: #237EC2;
+    padding: 5px 0;
+    font-weight: bold;
+    transition: all 0.1s;
+}
+
+#check {
+    color: #ffffff;
+    float: right;
+    position: relative;
+    top: 35px;
+    display: none;
+}
+
+.checkbtn {
+    color: #ffffff;
+    font-size: 24px;
+    float: right;
+    margin-right: 30px;
+    line-height: 80px;
+    display: none;
+    cursor: pointer;
+}
+
+
+._none{
+    display: block !important;
+}
+
+
+.hero_section {
+    margin-top: 50px;
+    width: 100vw;
+    height: 650px;
+    position: relative;
+}
+
+.hero_section img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.hero_section h1 {
+    position: absolute;
+    top: 23%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    word-spacing: 2px;
+    line-height: 63px;
+}
+
+.hero_section h6 {
+    position: absolute;
+    bottom: 40%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+
+.hero_section p {
+    position: absolute;
+    bottom: 27%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.hero_button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .hero_button a{
+    width: 250px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #237EC2;
+    position: absolute;
+    bottom: 20%;
+}  */
+
+.button_gradient1 {
+    width: 250px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #237EC2;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 17%;
+    border: none;
+    background: rgb(28, 80, 169);
+    background: linear-gradient(90deg, rgba(28, 80, 169, 1) 0%, rgba(28, 80, 169, 1) 49%, rgba(35, 126, 194, 1) 100%);
+}
+
+
+.button_gradient2 {
+    width: 200px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #237EC2;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 17%;
+    left: 23%;
+    border: none;
+    background: rgb(28, 80, 169);
+    background: linear-gradient(90deg, rgba(28, 80, 169, 1) 0%, rgba(28, 80, 169, 1) 49%, rgba(35, 126, 194, 1) 100%);
+}
+
+.button_gradient3 {
+    width: 210px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #237EC2;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 17%;
+    left: 38%!important;
+    border: none;
+    background: rgb(28, 80, 169);
+    background: linear-gradient(90deg, rgba(28, 80, 169, 1) 0%, rgba(28, 80, 169, 1) 49%, rgba(35, 126, 194, 1) 100%);
+}
+
+.button_gradient1:hover{
+    color: #ffffff;
+}
+
+.button_gradient2:hover{
+    color: #ffffff;
+}
+
+.button_gradient3:hover{
+    color: #ffffff;
+}
+
+.introducing_our_words_section {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+
+.left_content p {
+    text-align: justify;
+    width: 90%;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    padding: 10px 0;
+}
+
+.left_content h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.left_content ul {
+    padding-left: 1rem !important;
+}
+
+.left_content ul li {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 32px;
+}
+
+.button_gradient4 {
+    width: 170px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #237EC2;
+    border-radius: 6px;
+    border: none;
+    margin-top: 16px;
+    background: rgb(28, 80, 169);
+    background: linear-gradient(90deg, rgba(28, 80, 169, 1) 0%, rgba(28, 80, 169, 1) 49%, rgba(35, 126, 194, 1) 100%);
+}
+
+.right_content img {
+    width: 100%;
+    height: 450px;
+}
+
+.why_play_fair_exchange_section {
+    width: 100%;
+    padding: 50px;
+    background-color: #f8f8f9;
+    display: block;
+    text-align: center;
+}
+
+.why_play_fair_exchange_section h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #237EC2;
+}
+
+
+.content img {
+    width: 25%;
+}
+
+.content h3 {
+    padding: 16px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.bg_shadow {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 16px;
+} 
+
+
+.checkout_demo_section {
+    width: 100%;
+    height: 340px;
+    position: relative;
+}
+
+.checkout_demo_section img {
+    width: 100%;
+    height: 100%;
+    opacity: 1px;
+}
+
+.overlay_items {
+    position: relative;
+    width: 100%;
+    bottom: 70%;
+    text-align: center;
+}
+
+.overlay_items h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 1.5px;
+}
+
+.overlay_items p{
+    position: absolute;
+    color: #fff;
+    font-size: 28px;
+    padding: 0 20px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 1.5px;
+    line-height: 44px;
+}
+
+
+.button_gradient5 {
+    width: 210px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    background-color: #237EC2;
+    border-radius: 6px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    background: rgb(28, 80, 169);
+    background: linear-gradient(90deg, rgba(28, 80, 169, 1) 0%, rgba(28, 80, 169, 1) 49%, rgba(35, 126, 194, 1) 100%); 
+}
+
+.button_gradient5:hover{
+   color: #ffffff;
+}
+  
+  
+
+/* HOW DOES IT WORK SECTION STYLING GOES HERE */
+.how_does_it_work_section {
+    width: 100%;
+    display: block;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.how_does_it_work_section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #237EC2;
+    padding-bottom: 50px;
+}
+
+.work_description {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f8f8f9;
+}
+
+.step1_left {
+    text-align: left;
+    padding: 20px;
+}
+
+.step
+h3 {
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+.step1_left p {
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.button_gradient6 {
+    width: 210px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    background-color: #237EC2;
+    border-radius: 6px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    margin-top: 130px;
+    background: rgb(28, 80, 169);
+    background: linear-gradient(90deg, rgba(28, 80, 169, 1) 0%, rgba(28, 80, 169, 1) 49%, rgba(35, 126, 194, 1) 100%); 
+}
+
+.button_gradient6:hover{
+    color: #ffffff;
+ }
+   
+
+/* FOOTER */
+footer {
+    width: 100%;
+    padding: 50px;
+    background-color: #2A2A2A;
+    margin-top: 50px;
+}
+
+.footer_content p {
+    text-align: justify;
+    font-size: 16px;
+    padding-right: 16px;
+}
+
+
+.footer_icon{
+    width: 100%;
+    display: flex;
+    margin-top: 24px;
+}
+
+.fa-brands {
+    margin-right: 10px;
+    font-size: 28px;
+    padding: 6px 7px;
+    background-color: rgb(77, 76, 76);
+    border-radius: 3px;
+}
+
+.fa-brands:hover {
+    background-color: #237EC2;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.footer_content h4 {
+    padding-top: 20px;
+    font-size: 22px;
+    color: #237EC2;
+}
+
+
+.fa-phone{
+    margin-right: 5px;
+}
+
+.footer_content h5{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.footer_content ul{
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer_content ul li{
+    margin: 14px 0;
+    padding-left: 30px;
+}
+
+
+
+
+.footer_content ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   text-align: left;
+   font-size: 18px;
+   font-weight: bold;
+   line-height: 24px;
+}
+
+.footer_content ul li a:hover{
+ border-bottom: 1px solid #fff;
+ } 
+
+/*---------------- MEDIA QUERY----------------- */
+
+@media screen and (max-width:3000px){
+    nav .sm_nav_bar{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:1080px){
+    nav ul {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:576px){
+    nav .sm_nav_bar{
+        display: none;
+    }
+
+p{
+font-size:16px;
+}
+
+    .logo{
+        font-size: 1.4rem;
+        width: 60%;
+        padding: 0;
+        line-height: 60px;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 90px;
+        width: 100%;
+        height: 100%;
+        background-color:#ffffff;
+        left: 0;
+        padding-left: 0 !important;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        line-height: 60px;
+    }
+
+    nav ul li a{
+        color: #000;
+    }
+
+    nav ul li a:hover,
+.active {
+    color: #237EC2;
+    padding: 5px 0;
+    font-weight: bold;
+    transition: all 0.1s;
+}
+
+    .checkbtn {
+        line-height: 60px;
+        display: block;
+        margin-left: 70px!important;
+        margin-right: 0;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    } 
+
+
+    .overlay_items{
+        position: absolute;
+        width: 100%;
+        bottom: 15%;
+        text-align: center;
+}
+
+    .overlay_items h1{
+        font-size: 36px;
+    }
+
+    .overlay_items h3{
+    padding: 130px 0!important;
+    font-size: 30px!important;
+    }
+
+    .overlay_items p{
+        position: absolute;
+        padding-bottom: 12px;
+        bottom: 14%;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    
+    
+
+.button_gradient5 {
+    position: absolute;
+    left: 50%;
+    bottom: 22px;
+    display: block;
+}
+
+.left_content p {
+    width: 100% !important;
+    font-size: 18px;
+}
+
+.left_content h3{
+    font-size: 24px;
+}
+
+.right_content {
+    margin-top: 20px !important;
+}
+
+.right_content img {
+    width: 100%;
+    height: 400px;
+}
+
+.hero_section {
+    margin-top: 90px;
+}
+
+.hero_section h1 {
+    font-size: 28px;
+    line-height: 38px;
+    top: 4%;
+
+}
+
+.hero_section h6 {
+    position: absolute;
+    bottom: 52%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 1px;
+}
+
+.hero_button{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.button_gradient1 {
+    position: absolute;
+    bottom: 26%;
+    border: none;
+}
+
+
+.button_gradient2 {
+    position: absolute;
+    bottom: 16%;
+    border: none;
+    left: 12px;
+}
+
+.button_gradient3 {
+    position: absolute;
+    bottom: 6%;
+    border: none;
+    left: 10px!important;
+}
+
+.button_gradient6 {
+    position: absolute;
+    left: 50%;
+    margin-top: 0;
+}
+
+.hero_section p {
+    position: absolute;
+    bottom: 33%;
+    font-size: 14px;
+    word-spacing: 0.5px;
+}
+
+.why_play_fair_exchange_section {
+    padding: 0;
+}
+
+.why_play_fair_exchange_section h2 {
+    font-size: 26px;
+}
+
+footer {
+    padding: 10px;
+}
+
+.footer_content{
+    margin-top: 20px;
+}
+
+.footer_content p {
+    padding-right:0;
+}
+
+.footer_content ul li{
+    padding-left: 0;
+}
+
+.footer_content h5{
+    padding-left: 0;
+}
+
+.footer_content ul li a{
+    font-size: 16px;
+ }
+
+.step1_left h3{
+    font-size: 24px!important;
+    padding-top: 14px;
+}
+
+.step1_left p {
+    padding-right:0;
+    padding-top: 16px;
+    font-size: 18px;
+}
+
+.content h3 {
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.how_does_it_work_section h2 {
+    font-size: 28px;
+}
+
+}
+
+/* MEDIA QUERY WHEN MIN HIEIGHT IS 376 AND MAX WIDTH IS 768PX */
+
+@media screen and (min-width:577px) and (max-width:768px){
+
+    nav .sm_nav_bar{
+        display: none;
+    }
+    nav ul{
+        padding: 10px 10px !important;
+        position: fixed;
+        top: 90px;
+        width: 100%;
+        height: 100%;
+        background-color:#ffffff;
+        left: 0;
+        padding-left: 0 !important;
+    }
+
+    nav ul li a:hover,
+    .active {
+        color: #1C2D44;
+        padding: 5px 0;
+        font-weight: bold;
+        transition: all 0.1s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        line-height: 60px;
+    }
+
+    nav ul li a{
+        color: #000;
+        font-size: 18px;
+    }
+
+    nav ul li a:hover,
+.active {
+    color: #237EC2;
+    padding: 5px 0;
+    font-weight: bold;
+    transition: all 0.1s;
+}
+
+    .logo{
+        line-height: 70px;
+        padding-left: 0;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkbtn {
+        color: #ffffff;
+        font-size: 24px;
+        float: right;
+        margin-right: 10px;
+        line-height: 70px;
+        display: block;
+        cursor: pointer;
+    }
+
+    #check:checked~nav ul {
+        left: 0;
+    }
+
+    .hero_section h1 {
+        font-size: 48px;
+        line-height: 65px;
+        top: 14%;
+    }
+
+    .hero_section h6 {
+        position: absolute;
+        bottom: 37%;
+        font-size: 20px;
+    }
+    
+    .hero_section p {
+        position: absolute;
+        bottom: 20%;
+        
+    }
+    
+    .overlay_items{
+        position: absolute;
+        width: 100%;
+        bottom: 15%;
+        text-align: center;
+}
+
+    .overlay_items h1{
+        font-size: 36px;
+    }
+
+    .overlay_items h3 {
+        position: absolute;
+        bottom: 30%;
+        left: 21%;
+        padding-bottom: 130px;
+    }
+    
+
+    .overlay_items p{
+       position: absolute;
+       bottom: 40%!important;
+       padding-bottom: 75px;
+    }
+
+    .button_gradient1 {
+        position: absolute;
+        bottom: 11%;
+        border: none;
+    }
+    
+    
+    .button_gradient2 {
+        position: absolute;
+        bottom: 11%;
+        left: 39%!important;
+        border: none;
+        }
+    
+    .button_gradient3 {
+        position: absolute;
+        bottom: 11%;
+        left: 67%!important;
+        }
+
+        .right_content img {
+           margin-top: 42px;
+           height: 330;
+        }
+        
+        .button_gradient5 {
+            position: absolute;
+            left: 50%;
+            margin-top: 0;
+            bottom: 13%;
+            margin-bottom: 35px;
+        }
+
+        .button_gradient6 {
+            position: absolute;
+            left: 50%;
+            margin-top:0;
+            bottom: 10%;
+        }
+        
+        footer {
+            padding: 10px;
+        }
+       
+        .footer_content h5{
+            padding-left:0;
+        }
+
+        .footer_content ul li{
+            padding-left:0;
+        }
+        
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    nav .sm_nav_bar{
+        display: none;
+    }
+
+    .logo{
+        font-size: 1.4rem;
+        width: 60%;
+        padding: 0;
+        line-height: 60px;
+    }
+
+
+    nav ul {
+        position: fixed;
+        top: 90px;
+        width: 100%;
+        height: 100%;
+        background-color:#ffffff;
+        left: 0;
+        padding-left: 0 !important;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        line-height: 60px;
+    }
+
+    nav ul li a{
+        color: #000;
+    }
+
+   
+
+nav ul li a:hover,
+.active {
+    color: #237EC2;
+    padding: 5px 0;
+    font-weight: bold;
+    transition: all 0.1s;
+}
+
+    .checkbtn {
+        line-height: 60px;
+        display: block;
+        margin-left: 70px!important;
+        margin-right: 0;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    } 
+
+    .button_gradient1 {
+        position: absolute;
+        bottom: 11%;
+        border: none;
+    }
+    
+    
+    .button_gradient2 {
+        position: absolute;
+        bottom: 11%;
+        left: 39%!important;
+        border: none;
+        }
+    
+    .button_gradient3 {
+        position: absolute;
+        bottom: 11%;
+        left: 67%!important;
+        }
+
+        .hero_section p {
+            position: absolute;
+            bottom: 18%;
+        }
+
+        .hero_section h6 {
+            position: absolute;
+            bottom: 33%;
+            font-size: 20px;
+        }
+
+        .hero_section h1 {
+            font-size: 48px;
+            line-height: 65px;
+            top: 15%;
+        }
+
+        .right_content img {
+            margin-top: 42px;
+         }
+
+         footer {
+            padding: 10px;
+        }
+         .footer_content h5{
+            padding-left:0;
+        }
+
+        .footer_content ul li{
+            padding-left:0;
+        }
+        
+}
+
+@media screen and (min-width:993px) and (max-width:1320px){
+    nav ul li a:hover{
+        color: #1C2D44;
+        border-bottom: 1px solid #1C2D44;
+    }
+
+    nav .sm_nav_bar{
+        display: none;
+    }
+
+    .logo{
+        font-size: 1.4rem;
+        width: 60%;
+        padding: 0;
+        line-height: 60px;
+    }
+
+
+    nav ul {
+        position: fixed;
+        top: 90px;
+        width: 100%;
+        height: 100%;
+        background-color:#ffffff;
+        left: 0;
+        padding-left: 0 !important;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        line-height: 60px;
+    }
+
+    nav ul li a{
+        color: #000;
+    }
+
+    nav ul li a:hover,
+.active {
+    color: #1C2D44;
+    padding: 5px 0;
+    border-bottom: 1px solid #1C2D44;
+    font-weight: bold;
+    transition: all 0.1s;
+}
+
+    .checkbtn {
+        line-height: 60px;
+        display: block;
+        margin-left: 70px!important;
+        margin-right: 0;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    } 
+
+    footer {
+        padding: 10px;
+    }
+
+    .button_gradient1 {
+        position: absolute;
+        bottom: 11%;
+        border: none;
+    }
+    
+    .button_gradient2 {
+        position: absolute;
+        bottom: 11%;
+        left: 32%!important;
+        border: none;
+        }
+    
+    .button_gradient3 {
+        position: absolute;
+        bottom: 11%;
+        left: 55%!important;
+        }
+}
+
+
+
+
+
+
